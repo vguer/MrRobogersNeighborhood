@@ -6,7 +6,7 @@ $(document).ready(function() {
 
     const userInput = numberToRoboger($("input#numberinput").val());
 
-    $("form").hide();
+    $("#form").hide();
     $('#output').append(numberToRoboger(userInput));
   });
 });
@@ -14,21 +14,14 @@ $(document).ready(function() {
 
 // Buisness Logic
 
-const inputNumbers = number.split("");
+const inputNumbers = ("#numberinput").split("");
 const robogerWords = ["", "Beep", "Boop", "Won't you be my neighbor?"];
 
 function numberToRoboger (inputNumbers) {
-  if (number > 100) {
+  console.log(inputNumbers)
+  if (inputNumbers > 100) {
     return "no"
   } else if (inputNumbers === 1) {
-    return robogerWords[1]; 
-  }
-}
-
-
-
-
- 
-  
+    return robogerWords[1] 
   }
 }
