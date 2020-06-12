@@ -13,6 +13,12 @@ $(document).ready(function() {
 
 
 // Buisness Logic
+
+const numberToRoboger = ["", "beep" , "boop" , "Won't you be my neighbor?"]
+
+
+
+/*
 const numberToRoboger = (str) => {
   const newStrArray = str.split("");
 
