@@ -1,20 +1,23 @@
 // UI Logic
 
-$(document).ready(function() {
+$(document).ready(function(event) {
   $('form#neighborhood').submit(function(event) {
     event.preventDefault();
-
-    const userInput = $("#numberinput").val();
+    
+    const userInput = numberToRoboger(parseInt($("#numberinput").val()));
 
     $("form").hide();
-    $('#output').append(numberToRoboger(userInput));
+    $('#output').append(numberToRoboger);
   });
 });
 
 
 // Buisness Logic
 
-const numberToRoboger = ["", "beep" , "boop" , "Won't you be my neighbor?"]
+const output = ["", "beep" , "boop" , "Won't you be my neighbor?"];
+if (userInput === 1) {
+  $()
+}
 
 
 
