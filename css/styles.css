@@ -1,0 +1,16 @@
+#output {
+  display: none;
+}
+
+#robogerpic {
+  display: none;
+}
+
+.jumbotron {
+  background-color: rgb(118, 206, 233);
+  text-align: center;
+}
+
+.btn {
+  margin-top: 10px;
+}

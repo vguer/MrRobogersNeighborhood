@@ -10,17 +10,21 @@
   <body>
     <div class="container">
       <h1 class="jumbotron">Mr. Roboger's Neighborhood</h1>
-      <form id="roboger">
+      <form id="neighborhood">
         <div>
           <p>Welcome! Mr. Rogers' soul has come back as a robot, Mr. Robogers, and he is asking that you say hello. To do so, you must communicate in robot language, also known as numbers.</p>
         </div>
         <div>
-          <label for="inputnumber">To say hello to Mr. Robogers himself, please enter a number from 0-100 into the number box. He will then reply!</labe>
+          <label for="inputnumber">To say hello to Mr. Robogers himself, please enter a number from 0-100 into the number box. He will then reply!</label>
+          <br>
           <input id="inputnumber" type="number" required>
         </div>
           <button class="btn btn-primary">Send to Mr.Robogers</button>
       </form>
-        <div id="output"></div>
+        <div id="output">
+          <img id="robogerpic" src="img/robotroger.jpg" alt="image of robot mr.rogers">
+          <span id="outputwords"></span>
+        </div>
     </div>
   </body>
 </html>
