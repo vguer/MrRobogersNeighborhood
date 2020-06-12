@@ -1,48 +1,29 @@
 // UI Logic
 
-$(document).ready(function(event) {
+$(document).ready(function() {
   $('form#neighborhood').submit(function(event) {
     event.preventDefault();
     
-    const userInput = numberToRoboger(parseInt($("#numberinput").val()));
-
-    $("form").hide();
-    $('#output').append(numberToRoboger);
+    const numberInput = parseInt($("input#numberinput").val());
+    console.log(numberInput)
+    const result = numberToRoboger(numberInput);
+    console.log(result)
+    // $("form").hide();
+    $("#output").append(result);
   });
 });
 
 
 // Buisness Logic
-
-const output = ["", "beep" , "boop" , "Won't you be my neighbor?"];
-if (userInput === 1) {
-  $()
-}
-
-
-
-/*
-const numberToRoboger = (str) => {
-  const newStrArray = str.split("");
-
-  for (i=0; i < newStrArray.length; i++) {
-    const charArray = newStrArray[i].split("");
-
-    charArray.forEach((char, index) => {
-      if (char === 1) {
-        charArray[index] = "Beep";
-      }
-    });
- 
-    newStrArray[i] = charArray.join("");
+function numberToRoboger(numberInput) {
+  if (numberInput === 1) {
+  return "Beep" 
+  } else if (numberInput === 2) {
+  return "Boop"
+  } else if (numberInput === 3) {
+  return "Won't you be my neighbor?"
   }
-    newString = newStrArray.join(" ");
-    newString = newString.slice(1);
-
-    return newString
 }
-
-  
 
 
 
@@ -67,5 +48,4 @@ for (let robogerWords = 0; robogerWords <= robogerWords.length; robogerWords +=1
   } else if (inputNumbers === 1) {
     return robogerWords[1]
   } console.log(inputNumbers)
-}
 */
