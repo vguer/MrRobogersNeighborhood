@@ -14,14 +14,23 @@ $(document).ready(function() {
 
 // Buisness Logic
 
-const inputNumbers = ("#numberinput").split("");
-const robogerWords = ["", "Beep", "Boop", "Won't you be my neighbor?"];
+const userInput = ('#numberinput');
+const inputNumbers = (userInput)
+const robogerWords = ['', 'Beep', 'Boop', "Won't you be my neighbor?"];
 
-function numberToRoboger (inputNumbers) {
-  console.log(inputNumbers)
+robogerWords.forEach(function(word) {
+  if (userInput === 1) {
+    return robogerWords [1];
+  } else return "no" 
+  });
+  console.log();
+
+
+/*
   if (inputNumbers > 100) {
     return "no"
   } else if (inputNumbers === 1) {
-    return robogerWords[1] 
-  }
+    return robogerWords[1]
+  } console.log(inputNumbers)
 }
+*/
