@@ -25,10 +25,6 @@ This application takes a number from a user and replaces certain numbers with "B
   * Input: 135
   * Output: "Please enter a number from 1 to 100"
 
-**Behavior**: The program will return a range from 0 to the inputted number.
-  * Input: 4
-  * Output: "0, 1, 2, 3"
-
 **Behavior**: The program returns "Beep!" when a 1 is inputted.
   * Input: 1
   * Output: "Beep!"
@@ -45,6 +41,9 @@ This application takes a number from a user and replaces certain numbers with "B
   * Input: 32
   * Output: "Won't you be my neighbor?"
 
+**Behavior**: The program will return a range from 0 to the inputted number.
+  * Input: 4
+  * Output: "0, 1, 2, 3"
 
 
 ## Known Bugs
@@ -53,7 +52,7 @@ There are no known bugs.
 
 ## Support and contact details
 
-For feedback or concerns about this project, please contact one of the conbributors.
+For feedback or concerns about this project, please contact the author.
 
 ## Technologies Used
 
