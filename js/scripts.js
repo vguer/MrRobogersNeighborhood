@@ -18,13 +18,14 @@ const userInput = ('#numberinput');
 const inputNumbers = (userInput)
 const robogerWords = ['', 'Beep', 'Boop', "Won't you be my neighbor?"];
 
-robogerWords.forEach(function(word) {
+function numberToRoboger (userInput) {
+robogerWords.forEach(function(words) {
   if (userInput === 1) {
     return robogerWords [1];
   } else return "no" 
   });
-  console.log();
-
+  console.log(numbertoRoboger);
+};
 
 /*
   if (inputNumbers > 100) {
