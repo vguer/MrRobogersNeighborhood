@@ -19,7 +19,7 @@ const inputNumbers = (userInput)
 const robogerWords = ['', 'Beep', 'Boop', "Won't you be my neighbor?"];
 
 function numberToRoboger (userInput) {
-robogerWords.forEach(function(words) {
+for (let index = 0; index <= index.length; index +=1)
   if (userInput === 1) {
     return robogerWords [1];
   } else return "no" 
