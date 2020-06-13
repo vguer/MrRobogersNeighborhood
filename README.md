@@ -1,6 +1,6 @@
 # Webpage: Mr. Roboger's Neighborhood
 
-#### What is this for, 6.12.2020
+#### Independent project for Epicodus, 6.12.2020
 
 #### By Vanessa Guerrero
 
@@ -48,7 +48,7 @@ This application takes a number from a user and replaces certain numbers with "B
 
 ## Known Bugs
 
-There are no known bugs.
+At the time of initial submission on 6/12/2020, this application was incomplete and not yet running.
 
 ## Support and contact details
 
