@@ -17,13 +17,9 @@ This application takes a number from a user and replaces certain numbers with "B
 
 ## Specifications
 
-**Behavior**: The program will return an error if letters are submitted.
-  * Input: Hi
-  * Output: "Please enter a number"
-
-**Behavior**: The program will return an error if a number larger than 100 is submitted.
-  * Input: 135
-  * Output: "Please enter a number from 1 to 100"
+**Behavior**: The program will return a range from 0 to the inputted number.
+  * Input: 4
+  * Output: "0, 1, 2, 3"
 
 **Behavior**: The program returns "Beep!" when a 1 is inputted.
   * Input: 1
@@ -41,14 +37,11 @@ This application takes a number from a user and replaces certain numbers with "B
   * Input: 32
   * Output: "Won't you be my neighbor?"
 
-**Behavior**: The program will return a range from 0 to the inputted number.
-  * Input: 4
-  * Output: "0, 1, 2, 3"
-
 
 ## Known Bugs
 
-At the time of initial submission on 6/12/2020, this application was incomplete and not yet running.
+* At the time of initial submission on 6/12/2020, this application was incomplete and not yet running.
+* As of 6/14/2020, the program is running. However, the form will not clear output with new submission, and therefore the page will need to be refreshed.
 
 ## Support and contact details
 

@@ -3,18 +3,13 @@
 $(document).ready(function() {
   $('form#neighborhood').submit(function(event) {
     event.preventDefault();
-    
     const numberInput = parseInt($("input#numberinput").val());
-    console.log(numberInput)
-    //const result = numberToRoboger(numberInput);
     const result = rangeCreator(numberInput);
-    console.log(result)
 
-
-    $(".output").append(result);
     $("#result").show();
-    
-  
+    $(".output").append(result);
+   
+   // $(".output").hide();
   });
 });
 
@@ -29,7 +24,6 @@ function rangeCreator(numberInput) {
 }
   return finalArray
 }
-
 
 function numberToRoboger(index) {
   index.toString();
