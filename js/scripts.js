@@ -19,12 +19,16 @@ $(document).ready(function() {
 
 
 // Buisness Logic
+
+
 function numberToRoboger(numberInput) {
-  if (numberInput === 1) {
+  let parse = ("" + numberInput).split("");
+  console.log(parse)
+  if (parse[0] === "1") {
   return "Beep" 
-  } else if (numberInput === 2) {
+  } else if (parse[0] === "2") {
   return "Boop"
-  } else if (numberInput === 3) {
+  } else if (parse[0] === "3") {
   return "Won't you be my neighbor?"
   }
 }
