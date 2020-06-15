@@ -42,6 +42,7 @@ This application takes a number from a user and replaces certain numbers with "B
 
 * At the time of initial submission on 6/12/2020, this application was incomplete and not yet running.
 * As of 6/14/2020, the program is running. However, the form will not clear output with new submission, and therefore the page will need to be refreshed.
+* As of 6/15/2020, the page will clear input with new submission.
 
 ## Support and contact details
 
