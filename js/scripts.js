@@ -9,7 +9,11 @@ $(document).ready(function() {
     const result = numberToRoboger(numberInput);
     console.log(result)
     // $("form").hide();
-    $("#output").append(result);
+
+
+    $(".output").append(result);
+    $("#result").show();
+  
   });
 });
 
