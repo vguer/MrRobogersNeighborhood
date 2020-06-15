@@ -1,5 +1,7 @@
 #result {
   display: none;
+  margin-top: 20px;
+  font-size: 20px;
 }
 
 #robogerpic {
@@ -7,10 +9,14 @@
 }
 
 .jumbotron {
-  background-color: rgb(118, 206, 233);
+  background-color:#6cbeef;
   text-align: center;
 }
 
 .btn {
   margin-top: 10px;
+}
+
+#neighborhood {
+  font-size: 20px;
 }
