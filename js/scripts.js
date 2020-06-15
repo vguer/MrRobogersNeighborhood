@@ -7,9 +7,7 @@ $(document).ready(function() {
     const result = rangeCreator(numberInput);
 
     $("#result").show();
-    $(".output").append(result);
-   
-   // $(".output").hide();
+    $(".output").text(result);    
   });
 });
 
@@ -18,23 +16,23 @@ $(document).ready(function() {
 
 function rangeCreator(numberInput) {
   let finalArray =[];
-  for (let index=0; index <= numberInput; index+=1){
+  for (let index=0; index <= numberInput; index+=1) {
     finalArray.push(index);
     finalArray[index] = numberToRoboger(index);
 }
-  return finalArray
+  return finalArray;
 }
 
 function numberToRoboger(index) {
   index.toString();
   let numbers = (""+index).split("");
   if (numbers[0] === "1") {
-  return "Beep " 
+  return " Beep" 
   } else if (numbers[0] === "2") {
-  return "Boop "
+  return " Boop"
   } else if (numbers[0] === "3") {
-  return "Won't you be my neighbor? "
+  return " Won't you be my neighbor?"
   } else { 
-  return index + (" ");
+  return (" ") + index;
   }
 }
