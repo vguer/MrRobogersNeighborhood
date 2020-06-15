@@ -21,6 +21,15 @@ $(document).ready(function() {
 
 // Buisness Logic
 
+function rangeCreator(numberInput) {
+  let finalArray =[];
+  for (let index=0; index <= numberInput; index+=1){
+    finalArray.push(index);
+    finalArray[index] = numberToRoboger(index);
+}
+  return finalArray
+}
+
 
 function numberToRoboger(index) {
   index.toString();
@@ -34,14 +43,4 @@ function numberToRoboger(index) {
   } else { 
   return index + (" ");
   }
-}
-
-
-function rangeCreator(numberInput) {
-  let finalArray =[];
-  for (let index=0; index <= numberInput; index+=1){
-    finalArray.push(index);
-    finalArray[index] = numberToRoboger(index);
-}
-  return finalArray
 }
