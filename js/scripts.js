@@ -26,12 +26,12 @@ function rangeCreator(numberInput) {
 function numberToRoboger(index) {
   index.toString();
   let numbers = (""+index).split("");
-  if (numbers[0] === "1") {
-  return " Beep" 
-  } else if (numbers[0] === "2") {
+  if (numbers.includes("3")) {
+  return " Won't you be my neighbor" 
+  } else if (numbers.includes("2")) {
   return " Boop"
-  } else if (numbers[0] === "3") {
-  return " Won't you be my neighbor?"
+  } else if (numbers.includes("1")) {
+  return " Beep"
   } else { 
   return (" ") + index;
   }
