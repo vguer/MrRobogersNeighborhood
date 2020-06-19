@@ -27,11 +27,11 @@ function numberToRoboger(index) {
   index.toString();
   let numbers = (""+index).split("");
   if (numbers.includes("3")) {
-  return " Won't you be my neighbor" 
+  return " Won't you be my neighbor?" 
   } else if (numbers.includes("2")) {
-  return " Boop"
+  return " Boop!"
   } else if (numbers.includes("1")) {
-  return " Beep"
+  return " Beep!"
   } else { 
   return (" ") + index;
   }

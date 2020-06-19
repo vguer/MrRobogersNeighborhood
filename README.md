@@ -1,6 +1,6 @@
-# Webpage: Mr. Roboger's Neighborhood
+# _Webpage: Mr. Roboger's Neighborhood_
 
-#### Independent project for Epicodus, 6.12.2020
+#### Independent project for Epicodus, 6.18.2020
 
 #### By Vanessa Guerrero
 
@@ -19,23 +19,23 @@ This application takes a number from a user and replaces certain numbers with "B
 
 **Behavior**: The program will return a range from 0 to the inputted number.
   * Input: 4
-  * Output: "0, 1, 2, 3"
+  * Output: "0, 1, 2, 3, 4"
 
 **Behavior**: The program returns "Beep!" when a 1 is inputted.
   * Input: 1
-  * Output: "Beep!"
+  * Output: "0, Beep!"
 
 **Behavior**: The program returns "Boop!" when a 2 is inputted.
   * Input: 2
-  * Output: "Boop!"
+  * Output: "Beep!, Boop!"
 
 **Behavior**: The program returns "Won't you be my neighbor?" when 3 is inputted.
   * Input: 3
-  * Output: "Won't you be my neighbor?"
+  * Output: "Beep!, "Boop!, Won't you be my neighbor?"
 
-**Behavior**: The program will read the first integer of a number entered to determine which of the above behaviors apply.
-  * Input: 32
-  * Output: "Won't you be my neighbor?"
+**Behavior**: The program will read an inputted integer, and if it contains a 3, 2, or 1, it will output based on the above specifictions in order of most-to-least important, where 3 is most important, 2 is second most important, and 1 is least important.
+  * Input: 13
+  * Output: "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, Won't you be my neighbor?"
 
 
 ## Known Bugs
